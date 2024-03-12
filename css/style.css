@@ -1,0 +1,80 @@
+/*cajas flexibles
+padding relleno  display:flex son cajas flexibles
+justify-content: para el ejemplo del sapito*/
+.contenedor
+{
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    /*ancho width: 600px;*/
+    height: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.con1
+{
+    background-color: red;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 3;
+   
+
+
+}
+.con2
+{
+    background-color: yellow;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 3;
+  
+}
+.con3
+{
+    background-color: greenyellow;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 3;
+    
+}
+
+.caja1
+{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+   
+   
+}
+.caja2
+{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+
+
+}
+.caja3
+{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    
+   
+}
+.caja4
+{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+ 
+   
+}
+
+
